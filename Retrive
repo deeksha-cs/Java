@@ -1,4 +1,4 @@
-#RETRIVE AN ELEMENT FROM A GIVEN ARRAY LIST:
+# RETRIVE AN ELEMENT FROM A GIVEN ARRAY LIST:
 
 import java.util.*;
 public class Main {
