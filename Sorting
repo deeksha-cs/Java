@@ -1,0 +1,21 @@
+# How to sort the array:
+
+import java.util.*;
+public class Main {
+public static void main(String[]args)
+{
+List<String> list_Strings=new ArrayList<String>();
+list_Strings.add("Red");
+list_Strings.add("orange");
+list_Strings.add("green");
+list_Strings.add("white");
+list_Strings.add("black");
+
+
+System.out.println("list before sort: "+list_Strings);
+Collections.sort(list_Strings);
+    
+
+System.out.println("list after sort: "+list_Strings);
+}
+}
