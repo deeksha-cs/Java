@@ -1,0 +1,19 @@
+# UPDATE SPECIFIC CHARACTER ELEMENT IN A ARRAY:
+
+import java.util.*;
+public class Main {
+public static void main(String[]args)
+{
+List<String> list_Strings=new ArrayList<String>();
+list_Strings.add("Red");
+list_Strings.add("orange");
+list_Strings.add("green");
+list_Strings.add("white");
+list_Strings.add("black");
+System.out.println(list_Strings);
+String element = list_Strings.get(0);
+list_Strings.set(2,"Yellow");
+
+System.out.println(list_Strings);
+}
+}
